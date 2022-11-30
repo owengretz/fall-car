@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!54 &1196057469
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2249880371512048630}
+  serializedVersion: 2
+  m_Mass: 100000
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 50
+  m_CollisionDetection: 0
+--- !u!64 &1196057470
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2249880371512048630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2534964839176971238, guid: ebc6b4d7f0445ce43a01a82038153f3b, type: 3}
+--- !u!114 &9126899897314565999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2249880371512048630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10da48501854bbe4491158689d0551b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 0, y: -1.5, z: -8.7}
+--- !u!1001 &7789190309892989695
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: ebc6b4d7f0445ce43a01a82038153f3b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.8189894e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ebc6b4d7f0445ce43a01a82038153f3b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19.884735
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ebc6b4d7f0445ce43a01a82038153f3b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 145.12863
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ebc6b4d7f0445ce43a01a82038153f3b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ebc6b4d7f0445ce43a01a82038153f3b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ebc6b4d7f0445ce43a01a82038153f3b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ebc6b4d7f0445ce43a01a82038153f3b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ebc6b4d7f0445ce43a01a82038153f3b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ebc6b4d7f0445ce43a01a82038153f3b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ebc6b4d7f0445ce43a01a82038153f3b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ebc6b4d7f0445ce43a01a82038153f3b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: ebc6b4d7f0445ce43a01a82038153f3b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -7015027346690320248, guid: 1e32fd4328f9dc943b0cd24e6a63c1ad,
+        type: 3}
+    - target: {fileID: -927199367670048503, guid: ebc6b4d7f0445ce43a01a82038153f3b,
+        type: 3}
+      propertyPath: m_Name
+      value: donkey kong barrel Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ebc6b4d7f0445ce43a01a82038153f3b, type: 3}
+--- !u!1 &2249880371512048630 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: ebc6b4d7f0445ce43a01a82038153f3b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7789190309892989695}
+  m_PrefabAsset: {fileID: 0}
